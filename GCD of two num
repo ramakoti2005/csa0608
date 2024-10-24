@@ -1,0 +1,9 @@
+import math
+
+def find_gcd(num1, num2):
+    return math.gcd(num1, num2)
+
+number1 = 56
+number2 = 98
+gcd_result = find_gcd(number1, number2)
+print(f"The GCD of {number1} and {number2} is: {gcd_result}")
